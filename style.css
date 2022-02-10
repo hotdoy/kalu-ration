@@ -1,0 +1,38 @@
+.rations {
+    width: 100%;
+    max-width: 720px;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.rations .table-head {
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 0px 5px 10px whitesmoke;
+}
+
+.rations .row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rations .table-body .row:hover {
+    background-color: #eaf6f1;
+}
+
+.rations .row > div {
+    width: 100%;
+    padding: 1rem 10px;
+}
+
+.rations .table-body .row {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #f1f1f1;   
+}
+
+
+
+
