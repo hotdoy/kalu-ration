@@ -1,8 +1,14 @@
 .rations {
     width: 100%;
-    max-width: 720px;
-    font-family: sans-serif;
+    font-family: inherit;
     font-size: small;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .rations {
+        font-size: inherit;
+    }
 }
 
 .rations .table-head {
@@ -32,7 +38,3 @@
     justify-content: space-evenly;
     border-top: 1px solid #f1f1f1;   
 }
-
-
-
-
